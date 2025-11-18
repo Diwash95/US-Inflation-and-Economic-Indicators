@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>US Economic Indicators</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="index.html" class="active">Inflation Rate</a>
+            <a href="page2.html">Unemployment Rate</a>
+            <a href="page3.html">GDP Growth</a>
+            <a href="page4.html">Interest Rates</a>
+            <a href="page5.html">Consumer Confidence</a>
+            <a href="page6.html">Housing Starts</a>
+            <a href="page7.html">Retail Sales</a>
+            <a href="page8.html">Trade Balance</a>
+            <a href="page9.html">Manufacturing PMI</a>
+            <a href="page10.html">National Debt</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <h1 id="chart-title">US Inflation Rate</h1>
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    <!-- this is the charting library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- this is your custom javascript file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
